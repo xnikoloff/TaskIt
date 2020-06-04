@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Layout from './components/layout/Layout';
+import { Switch, Route } from 'react-router-dom';
+import { Login } from './components/auth/login/Login';
+import { AuthenticatedRoute } from './core/guards/AuthenticatedRoute';
+import { NonAuthenticatedRoute } from './core/guards/NonAuthenticatedRoute';
+import { Register } from './components/auth/register/Register';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App">   
+      <Switch>
+        <NonAuthenticatedRoute exact path="/login" component={Login} />
+        <NonAuthenticatedRoute exact path="/register" component={Register} />
+        <AuthenticatedRoute path="/" component={Layout} />  
+      </Switch>
     </div>
   );
 }

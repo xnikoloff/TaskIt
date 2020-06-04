@@ -1,0 +1,41 @@
+.note-edit-wrapper{
+    height: 100%;
+    background: #363636;
+}
+
+.note-edit-wrapper .row .card .card-header{
+    background: #252525;
+}
+
+.note-edit-wrapper .row .card .card-body{
+    background: #fff38a;
+}
+
+.note-edit-wrapper .row .card .card-body label{
+    color: #000;    
+}
+
+.note-edit-wrapper label{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.note-edit-wrapper input{
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.note-edit-wrapper textarea{
+    width: 250px;
+    min-height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.note-edit-wrapper .card .card-footer{
+    background: rgb(37, 37, 37);
+}

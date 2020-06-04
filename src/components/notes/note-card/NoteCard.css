@@ -1,0 +1,35 @@
+.notes-list-wrapper{
+    height: 100%;
+    background: #363636;
+}
+
+.notes-list-wrapper .card{
+    min-height: 650px;
+    border: 4px solid red;
+}
+
+.notes-list-wrapper .card .card-header{
+    background: #252525;
+}
+
+.notes-list-wrapper .card .card-header h4{
+    color: #fff;
+}
+
+.notes-list-wrapper .card .card-header a{
+    background: rgb(93, 103, 148);
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 40px;
+}
+
+.notes-list-wrapper .card .card-body{
+    background: #fff38a;
+}
+
+.notes-list-wrapper .card .card-footer{
+    background: rgb(37, 37, 37);
+}
+.notes-list-wrapper .card .card-footer p{
+    color: #fff;
+}

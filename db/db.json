@@ -1,0 +1,197 @@
+{
+  "users": [
+    {
+      "id": "5ea2b9a998eba1677821f94c",
+      "isActive": true,
+      "isAdmin": true,
+      "picture": "https://picsum.photos/200/300",
+      "age": "273",
+      "name": "Salas Villarrealsgsdf gdfsg s",
+      "email": "admin@gggggg.com",
+      "password": "mypass"
+    },
+    {
+      "id": "5ea2b9a94a1b7d4eb605131e",
+      "isActive": true,
+      "isAdmin": true,
+      "picture": "https://picsum.photos/200/300",
+      "age": 40,
+      "name": "Steele Anderson",
+      "email": "steeleanderson@reversus.com",
+      "password": 12345
+    },
+    {
+      "id": "5ea2b9a939bbad67b304814f",
+      "isActive": true,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300",
+      "age": 24,
+      "name": "Deana Salinas",
+      "email": "deanasalinas@reversus.com",
+      "password": 12345
+    },
+    {
+      "name": "Test create",
+      "age": "10",
+      "email": "fdasfdsafsd@admin.com",
+      "password": "mypass324231",
+      "isAdmin": true,
+      "isActive": true,
+      "id": "WJ5lKnY"
+    },
+    {
+      "name": "gsfdgfsdg sf",
+      "age": "99",
+      "email": "admifdsafdsafasdfn@admin.com",
+      "password": "mypass",
+      "isAdmin": false,
+      "isActive": true,
+      "picture": "https://picsum.photos/200/300?random=1",
+      "id": "dR5vnt5"
+    },
+    {
+      "name": "NewUser",
+      "age": "25",
+      "email": "newuser@email.com",
+      "password": "12345678",
+      "isAdmin": false,
+      "isActive": true,
+      "picture": "https://picsum.photos/200/300?random=1",
+      "id": "d5Q_6qs"
+    },
+    {
+      "name": "MyUser",
+      "email": "myuser@reversus.com",
+      "password": "12345",
+      "age": "32",
+      "errorMessage": "",
+      "isActive": true,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300?random=1",
+      "id": "YanKjj6"
+    },
+    {
+      "name": "YG",
+      "email": "newUser@user.rr",
+      "password": "12345",
+      "age": "24",
+      "errorMessage": "",
+      "isActive": true,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300?random=1",
+      "id": "f0YGetr"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Online class ",
+      "content": "Online class at 4 o'clock",
+      "authorId": "WJ5lKnY",
+      "authorName": "Test create",
+      "date": "2020-06-04T13:45:19.315Z",
+      "id": 2,
+      "status": "Medium",
+      "complexity": "Medium"
+    },
+    {
+      "title": "Buy stuff",
+      "content": "1 carton of milk\n2 cans of cola",
+      "authorId": "5ea2b9a94a1b7d4eb605131e",
+      "authorName": "Steele Anderson",
+      "date": "2020-06-04T18:54:17.262Z",
+      "id": 3,
+      "status": "Medium",
+      "complexity": "Easy"
+    },
+    {
+      "title": "First note",
+      "content": "Test this note out loud",
+      "authorId": "5ea2b9a94a1b7d4eb605131e",
+      "authorName": "Steele Anderson",
+      "date": "2020-06-04T19:04:48.827Z",
+      "id": 4,
+      "status": "Active",
+      "complexity": "Medium"
+    },
+    {
+      "title": "Gym today",
+      "content": "Gym today at 6pm o'clock",
+      "authorId": "5ea2b9a94a1b7d4eb605131e",
+      "authorName": "Steele Anderson",
+      "date": "2020-06-04T19:23:35.775Z",
+      "id": 5,
+      "complexity": "Medium"
+    },
+    {
+      "title": "Cook the dinner",
+      "content": "Cook the dinner this evening",
+      "authorId": "5ea2b9a94a1b7d4eb605131e",
+      "authorName": "Steele Anderson",
+      "date": "2020-06-04T19:25:31.333Z",
+      "status": "Done",
+      "id": 6
+    },
+    {
+      "title": "Done",
+      "content": "This is done",
+      "authorId": "5ea2b9a94a1b7d4eb605131e",
+      "authorName": "Steele Anderson",
+      "date": "2020-06-04T19:54:21.926Z",
+      "status": "Done",
+      "id": 7,
+      "complexity": "Easy"
+    },
+    {
+      "title": "Test complexity",
+      "content": "Complexity set to EASY",
+      "authorId": "5ea2b9a94a1b7d4eb605131e",
+      "authorName": "Steele Anderson",
+      "date": "2020-06-04T20:36:32.038Z",
+      "complexity": "Easy",
+      "status": "Pending",
+      "comlexity": "Medium",
+      "id": 9
+    },
+    {
+      "title": "Test complexity",
+      "content": "Complexity set to DEFAULT",
+      "authorId": "5ea2b9a94a1b7d4eb605131e",
+      "authorName": "Steele Anderson",
+      "date": "2020-06-04T20:44:03.015Z",
+      "status": "Pending",
+      "comlexity": "Medium",
+      "id": 10
+    },
+    {
+      "title": "Test complexity",
+      "content": "Complexity by default",
+      "authorId": "5ea2b9a94a1b7d4eb605131e",
+      "authorName": "Steele Anderson",
+      "date": "2020-06-04T21:03:12.222Z",
+      "status": "Pending",
+      "comlexity": "Medium",
+      "id": 11,
+      "complexity": "Medium"
+    },
+    {
+      "title": "Test status",
+      "content": "Status by default",
+      "authorId": "5ea2b9a94a1b7d4eb605131e",
+      "authorName": "Steele Anderson",
+      "date": "2020-06-04T21:11:38.172Z",
+      "status": "Pending",
+      "comlexity": "Easy",
+      "id": 12
+    },
+    {
+      "title": "Test complete note",
+      "content": "Everything by default",
+      "authorId": "5ea2b9a94a1b7d4eb605131e",
+      "authorName": "Steele Anderson",
+      "date": "2020-06-04T21:13:50.393Z",
+      "status": "Active",
+      "comlexity": "Easy",
+      "id": 13
+    }
+  ]
+}

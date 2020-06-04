@@ -1,0 +1,19 @@
+.user-edit-wrapper {
+    display: flex;
+    height: calc(100vh - 200px);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #363636;
+}
+
+.user-edit-form label{
+    color: #fff;
+}
+
+.user-edit-form input{
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}

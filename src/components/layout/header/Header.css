@@ -1,0 +1,49 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+/*colors*/
+/* red: #a62403*/
+
+.navbar{
+    height: 90px;
+}
+
+.navbar a{
+    color: #fff !important;
+}
+
+.navbar .nav-link{
+    font-weight: bold;
+    transition: .2s;
+}
+
+.navbar .nav-link:hover{
+    margin-top: 8px;
+    font-size: 1.1rem;
+    transition: .2s;
+}
+
+.navbar .navbar-brand{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1.8rem;
+}
+
+.navbar .navbar-brand span{
+    
+    font-size: 2.2rem;
+}
+
+.navbar .navbar-collapse .logout-btn{
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #a62403;
+    border-radius: 20px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.navbar .navbar-collapse .logout-btn:hover{
+    background: #a62403;
+    transition: .2s;
+}

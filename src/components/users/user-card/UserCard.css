@@ -1,0 +1,42 @@
+.cards-wrapper{
+    background: #212121;
+}
+
+.card{
+    width: 300px;
+    min-height: 800px;
+}
+
+.card img{
+    max-height: 300px;
+    width: 300px;
+}
+
+.card .user-info-wrapper .row p{
+    text-align: center;
+}
+
+.card .card-body h4 a{
+    color: #000;
+}
+
+.user-card {
+    border: 1px solid black;
+    width: 300px;
+    margin: 10px;
+}
+
+
+
+.picture-holder {
+    position: relative;
+}
+
+.edit-icon {
+    position: absolute;
+    right: 15px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}

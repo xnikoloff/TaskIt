@@ -1,0 +1,25 @@
+.login-wrapper{
+    height: 100vh;
+    background: #363636;
+}
+
+.login-wrapper h1{
+    color: #fff;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 4rem;
+}
+
+.login-wrapper .login-form{
+    margin-top: 100px;
+}
+
+.login-wrapper .login-form .form-group input{
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login-wrapper .login-form .form-group input::placeholder{
+    text-align: center;
+}

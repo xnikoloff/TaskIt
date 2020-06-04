@@ -1,0 +1,28 @@
+.register-wrapper {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.register-form {
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-fluid .row .col-greeting{
+    box-shadow: 1px 2px 8px #000;
+}
+
+.container-fluid .row .col-register h1, h4  , h6{
+    color: #ffffffee;
+}
+
+.container-fluid .row .col-register form input{
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
